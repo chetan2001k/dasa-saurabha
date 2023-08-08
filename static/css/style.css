@@ -1,0 +1,196 @@
+#a{
+    background: blue;
+}
+#b{
+    background:maroon;
+}
+
+.nav-link{
+    font-size: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius:10px;
+    font-weight: bold;
+}
+
+.links{
+    float: right;
+    padding-left: 80px;
+    padding-right: 80px;   
+}
+
+.nav-link:active{
+    border:1px solid #DA9F36;
+}
+.nav-link:hover{
+    background:#DA9F36;
+}
+
+.sitename{
+    font-size:36px;
+    font-family: 'Noto Serif Kannada', serif;
+    color: white;
+    font-weight: bold;
+}
+.container-fluid{
+    background: rgb(29, 136, 185);
+    border-radius: 100px;
+    border: 5px solid #DA9F36;
+    width: 100%;
+    height:110px;
+    padding-right:5vw;
+    padding-left:5vw;
+}
+
+.nav-link2{
+    padding-left:5vw;
+    padding-right:5vw;
+    margin:5px;
+    text-decoration: none;
+    color:black;
+}
+.navbar-nav2{
+    border: 2px solid black;
+    border-radius: 20px;
+    width:100vw;
+    background:#DA9F36;
+
+}
+.nav-link2:hover{
+    background:white;
+    border-radius:15px;
+    color: rgb(29, 136, 185);
+    border: 1px solid black;
+    font-weight: 500;
+}
+ 
+
+
+
+
+.navbar-brand{
+    margin-left: 50px;
+    margin-right: 10px;
+    
+}
+.logo-img{
+    width: 150px;
+    height: 150px;
+}
+
+.side-logo-img{
+    width: 40px;
+    height: 60px;
+}
+.carousel{
+    margin:7.5vw;
+    margin-top:10px ;
+    border: 1px solid black;
+    width: 85vw;
+    height:72vh;
+    border:5px solid #DA9F36 ;
+    border-radius: 10px;
+}
+
+.d-block{
+    image-resolution:500px 500px ;
+    border-image-repeat: stretch;
+    background-repeat: no-repeat;
+    height:70vh;
+}
+.navbar2{
+    background:none;
+    border-top:none;
+}
+.carousel-control-prev{
+    background: white;
+}
+.d-info-div{
+    width:90vw;
+    height:72vh;
+    border:3px solid #DA9F36;
+    margin-left: 5vw;
+    margin-right: 5vw ;
+    margin-top:1vh;
+    background: rgb(29, 136, 185);
+    border-radius:25px;
+
+}
+.dasara-name{
+    width:40vw;
+    height: 60px;
+    margin:20px;
+    margin-right: 10vw;
+    float: right;
+    /* transform: rotate(90deg); */
+    position: absolute;
+    top:30vh;
+    left:42vw;
+    border-radius:5px;
+}
+.dasara-pic{
+    width: 20vw;
+    height:50vh;
+    position: absolute;
+    top: 35vh;
+    left: 12vw;
+
+ }
+.piller{
+     height:71vh;
+    width: 90vw;
+    border-image-repeat: none;
+  position: absolute;
+  image-resolution: 100%;
+    left:5vw ;
+    top: 27vh;
+}
+.piller2{
+    height:62.5vh;
+    position:absolute;
+    left:35vw;
+    top: 31.3vh;
+
+}
+.dasara-name-text{
+    font-size:36px;
+    font-family: 'Noto Serif Kannada', serif;
+    font-weight: 900;
+    position:absolute;
+    left:50vw ;
+    top: 34.5vh;
+    color:black;
+
+
+}
+.info-scroll{
+    width:39vw;
+    height: 55vh;
+    position: absolute;
+    left: 44vw;
+    top:37vh;
+}
+
+.dasara-info{
+    width:34vw;
+    height:40vh;
+    overflow-y:scroll;
+    position: absolute;
+    left:48vw;
+    top: 44vh;
+    font-family: 'Noto Serif Kannada', serif;
+    font-size:17px;
+    scrollbar-width:none;
+
+    
+
+}
+.dasara-info::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.visiter{
+    float: right;
+    background-color:rgb(29, 136, 185);
+    padding: 10vh;
+}

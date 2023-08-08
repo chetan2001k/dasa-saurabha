@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Items List</title>
+</head>
+<body>
+    <ul>
+        {% for item in i %}
+        <li><a href="{{ url_for('item_details', item_id=item['_id']) }}">{{ item['name'] }}</a></li>
+        <br>
+        {% endfor %}
+    </ul>
+</body>
+</html>
